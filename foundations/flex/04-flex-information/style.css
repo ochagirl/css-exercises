@@ -1,15 +1,31 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  text-align: center;
 }
 
 img {
   width: 100px;
   height: 100px;
-}
+  }
 
 .title {
   font-size: 36px;
   font-weight: 900;
+  margin-bottom: 32px;
+  display: flex;
+  justify-content: center;
+}
+
+.greenhouse {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.plantinfo {
+ height: 200px;
+ width: 200px;
+ 
 }
 
 /* do not edit this footer */
